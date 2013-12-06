@@ -24,14 +24,5 @@ public class VariablesVisibility {
         System.out.println(variablesVisibility.inc(100));
         System.out.println(k);
         variablesVisibility.meth();
-
-        int a = 256;
-        int b = new Integer(256);
-
-        if (a == b) {
-            System.out.println("true");
-        } else {
-            System.out.println("false");
-        }
     }
 }
