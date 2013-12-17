@@ -1,3 +1,6 @@
+import Astractionism.Figure;
+import Astractionism.Rectangle;
+import Astractionism.Triangle;
 import  Dispatchering.*;
 
 public class Main {
@@ -16,6 +19,13 @@ public class Main {
         A variable = new B();
         variable.show();
         //variable.doIt();
+
+        Figure f;
+        f = new Rectangle(10, 10);
+        f.area();
+        f = new Triangle(10, 10);
+        f.area();
+
     }
 
 }

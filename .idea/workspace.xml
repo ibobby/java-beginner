@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="620e5894-72eb-4c85-8a8d-c36e8ca8ede6" name="Default" comment="Merge branch 'master' of https://github.com/ibobby/java-beginner&#10;&#10;Conflicts:&#10;&#9;src/VariablesVisibility.java&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Dispatchering/A.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Dispatchering/B.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="java-beginner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,41 +66,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="VariablesVisibility.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VariablesVisibility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="24" selection-start="484" selection-end="484" vertical-scroll-proportion="0.6514599" vertical-offset="0" max-vertical-offset="548">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Dispatchering/A.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="5" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="13" column="46" selection-start="382" selection-end="382" vertical-scroll-proportion="0.29704303" vertical-offset="0" max-vertical-offset="744">
               <folding>
-                <marker date="1387224351002" expanded="true" signature="105:159" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="B.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Dispatchering/B.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="37" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding>
-                <marker date="1387224526825" expanded="true" signature="167:215" placeholder="{...}" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,7 +89,7 @@
       <file leaf-file-name="OuterClass.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OuterClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="33" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+            <state line="8" column="19" selection-start="167" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
               <folding />
             </state>
           </provider>
@@ -130,7 +98,7 @@
       <file leaf-file-name="IllegalNameException.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IllegalNameException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="36" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="4" column="20" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -173,6 +141,11 @@
         <option value="$PROJECT_DIR$/src/VarArgs.java" />
         <option value="$PROJECT_DIR$/src/Dispatchering/B.java" />
         <option value="$PROJECT_DIR$/src/Dispatchering/A.java" />
+        <option value="$PROJECT_DIR$/src/Abstractionism.java" />
+        <option value="$PROJECT_DIR$/src/Astractionism/Abstractionism.java" />
+        <option value="$PROJECT_DIR$/src/Astractionism/Figure.java" />
+        <option value="$PROJECT_DIR$/src/Astractionism/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/Astractionism/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -180,8 +153,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1054" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -257,7 +230,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dispatchering" />
+              <option name="myItemId" value="Astractionism" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,7 +263,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MedImage" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="VariablesVisibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -500,8 +473,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1054" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -519,8 +492,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39451477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.204375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39451477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38177082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -562,7 +535,9 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="19" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="340">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -658,9 +633,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/Dispatchering/B.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="425">
+        <state line="10" column="37" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding>
+            <marker date="1387224526825" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Astractionism/Figure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="24" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Astractionism/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Astractionism/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="56" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dispatchering/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="159" selection-end="159" vertical-scroll-proportion="0.321513" vertical-offset="0" max-vertical-offset="423">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IllegalNameException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OuterClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="167" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
@@ -672,42 +691,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IllegalNameException.java">
+    <entry file="file://$PROJECT_DIR$/src/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+        <state line="12" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="425">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OuterClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dispatchering/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="37" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding>
-            <marker date="1387224526825" expanded="true" signature="167:215" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dispatchering/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding>
-            <marker date="1387224351002" expanded="true" signature="105:159" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="24" selection-start="484" selection-end="484" vertical-scroll-proportion="0.6514599" vertical-offset="0" max-vertical-offset="548">
-          <folding />
+        <state line="13" column="46" selection-start="382" selection-end="382" vertical-scroll-proportion="0.29704303" vertical-offset="0" max-vertical-offset="744">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
