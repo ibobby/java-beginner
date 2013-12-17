@@ -1,3 +1,4 @@
+import  Dispatchering.*;
 
 public class Main {
 
@@ -11,6 +12,10 @@ public class Main {
 
         VarArgs varArgs = new VarArgs();
         varArgs.varArgs("this is message", 1, 2, 3, 4, 5);
+
+        A variable = new B();
+        variable.show();
+        //variable.doIt();
     }
 
 }
