@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="620e5894-72eb-4c85-8a8d-c36e8ca8ede6" name="Default" comment="Merge branch 'master' of https://github.com/ibobby/java-beginner&#10;&#10;Conflicts:&#10;&#9;src/VariablesVisibility.java&#10;" />
+    <list default="true" id="620e5894-72eb-4c85-8a8d-c36e8ca8ede6" name="Default" comment="Merge branch 'master' of https://github.com/ibobby/java-beginner&#10;&#10;Conflicts:&#10;&#9;src/VariablesVisibility.java&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Enums/EnumWithConstructor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Annotations/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Obolochka/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Annotations/Meta.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Annotations/MyAnno.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Annotations/MyMarker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SystemInOut/SystemIn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Annotations/What.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="java-beginner.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,26 +73,7 @@
     <favorites_list name="java-beginner" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Clicker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Threads/ThreadPriority/Clicker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="24" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="595">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HiLoPriority.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Threads/ThreadPriority/HiLoPriority.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="47" selection-start="808" selection-end="808" vertical-scroll-proportion="0.66263443" vertical-offset="0" max-vertical-offset="744">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -118,14 +109,23 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Threads/ThreadPriority/Clicker.java" />
         <option value="$PROJECT_DIR$/src/Threads/ThreadPriority/HiLoPriority.java" />
+        <option value="$PROJECT_DIR$/src/Enums/EnumWithConstructor.java" />
+        <option value="$PROJECT_DIR$/src/Obolochka/Main.java" />
+        <option value="$PROJECT_DIR$/src/Annotations/TreadTest.java" />
+        <option value="$PROJECT_DIR$/src/Annotations/Main.java" />
+        <option value="$PROJECT_DIR$/src/Annotations/What.java" />
+        <option value="$PROJECT_DIR$/src/Annotations/MyAnno.java" />
+        <option value="$PROJECT_DIR$/src/Annotations/MyMarker.java" />
+        <option value="$PROJECT_DIR$/src/Annotations/Meta.java" />
+        <option value="$PROJECT_DIR$/src/SystemInOut/SystemIn.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -185,24 +185,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java-beginner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java-beginner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThreadPriority" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -238,58 +220,75 @@
     <property name="SearchEverywhereHistory" value="" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
-  <component name="RunManager" selected="Application.HiLoPriority">
-    <configuration default="false" name="VariablesVisibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VariablesVisibility" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java-beginner" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="OuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OuterClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java-beginner" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java-beginner" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SystemIn">
     <configuration default="false" name="HiLoPriority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Threads.ThreadPriority.HiLoPriority" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java-beginner" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EnumWithConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Enums.EnumWithConstructor" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java-beginner" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Obolochka.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java-beginner" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Annotations.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java-beginner" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SystemIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SystemInOut.SystemIn" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -431,18 +430,20 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.VariablesVisibility" />
-      <item index="1" class="java.lang.String" itemvalue="Application.OuterClass" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="Application.HiLoPriority" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.HiLoPriority" />
+      <item index="1" class="java.lang.String" itemvalue="Application.EnumWithConstructor" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SystemIn" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.HiLoPriority" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.OuterClass" />
-        <item index="3" class="java.lang.String" itemvalue="Application.VariablesVisibility" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.SystemIn" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.EnumWithConstructor" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HiLoPriority" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -465,7 +466,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -478,21 +479,47 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.204375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3935065" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7178683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38177082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38177082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35989583" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48421052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USERS">
@@ -542,7 +569,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="19" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="340">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -676,7 +703,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="90" selection-start="382" selection-end="382" vertical-scroll-proportion="0.29704303" vertical-offset="0" max-vertical-offset="744">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -709,16 +736,268 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Threads/ThreadPriority/Clicker.java">
+    <entry file="file://$PROJECT_DIR$/src/Enums/EnumWithConstructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding />
+        <state line="18" column="96" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding>
+            <element signature="e#276#277#0" expanded="false" />
+            <element signature="e#312#313#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Threads/ThreadPriority/HiLoPriority.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="47" selection-start="808" selection-end="808" vertical-scroll-proportion="0.66263443" vertical-offset="0" max-vertical-offset="744">
+        <state line="15" column="51" selection-start="469" selection-end="476" vertical-scroll-proportion="0.27597404" vertical-offset="0" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Obolochka/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="35" selection-start="161" selection-end="161" vertical-scroll-proportion="0.15994623" vertical-offset="0" max-vertical-offset="744">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_33/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="274" column="20" selection-start="10152" selection-end="10281" vertical-scroll-proportion="-4.3642473" vertical-offset="7820" max-vertical-offset="20451">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_33/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="18" selection-start="606" selection-end="606" vertical-scroll-proportion="0.31277058" vertical-offset="0" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Threads/ThreadPriority/Clicker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="24" selection-start="444" selection-end="444" vertical-scroll-proportion="0.478355" vertical-offset="0" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_33/src.zip!/java/lang/Deprecated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="28" selection-start="632" selection-end="642" vertical-scroll-proportion="0.33116883" vertical-offset="0" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_33/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1604" column="0" selection-start="66484" selection-end="66484" vertical-scroll-proportion="0.33189654" vertical-offset="26298" max-vertical-offset="51782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_33/src.zip!/java/lang/reflect/AnnotatedElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="48" selection-start="2094" selection-end="2101" vertical-scroll-proportion="0.13071896" vertical-offset="685" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Annotations/What.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="193" selection-end="193" vertical-scroll-proportion="0.22222222" vertical-offset="0" max-vertical-offset="612">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Annotations/MyAnno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="202" selection-end="202" vertical-scroll-proportion="0.22222222" vertical-offset="0" max-vertical-offset="612">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Annotations/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_33/src.zip!/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="60" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.24567099" vertical-offset="453" max-vertical-offset="2346">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_33/src.zip!/java/io/FilterOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="40" selection-start="972" selection-end="972" vertical-scroll-proportion="0.33333334" vertical-offset="66" max-vertical-offset="2482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_33/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="43" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.33333334" vertical-offset="219" max-vertical-offset="18343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_33/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="32" selection-start="2849" selection-end="2849" vertical-scroll-proportion="0.3495671" vertical-offset="0" max-vertical-offset="2499">
+          <folding>
+            <element signature="docComment;class#System#0" expanded="false" />
+            <element signature="initializer##0;class#System#0" expanded="false" />
+            <element signature="docComment;method#System#0;class#System#0" expanded="false" />
+            <element signature="method#System#0;class#System#0" expanded="false" />
+            <element signature="docComment;field#in#0;class#System#0" expanded="false" />
+            <element signature="docComment;field#out#0;class#System#0" expanded="false" />
+            <element signature="docComment;field#err#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#setIn#0;class#System#0" expanded="false" />
+            <element signature="method#setIn#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#setOut#0;class#System#0" expanded="false" />
+            <element signature="method#setOut#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#setErr#0;class#System#0" expanded="false" />
+            <element signature="method#setErr#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#console#0;class#System#0" expanded="false" />
+            <element signature="method#console#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#inheritedChannel#0;class#System#0" expanded="false" />
+            <element signature="method#inheritedChannel#0;class#System#0" expanded="false" />
+            <element signature="method#checkIO#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#setSecurityManager#0;class#System#0" expanded="false" />
+            <element signature="method#setSecurityManager#0;class#System#0" expanded="false" />
+            <element signature="method#setSecurityManager0#0;class#System#0" expanded="false" />
+            <element signature="e#9426#9479#0" expanded="false" />
+            <element signature="e#9658#9718#0" expanded="false" />
+            <element signature="docComment;method#getSecurityManager#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#currentTimeMillis#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#nanoTime#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#arraycopy#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#identityHashCode#0;class#System#0" expanded="false" />
+            <element signature="docComment;field#props#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#getProperties#0;class#System#0" expanded="false" />
+            <element signature="method#getProperties#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#setProperties#0;class#System#0" expanded="false" />
+            <element signature="method#setProperties#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#getProperty#0;class#System#0" expanded="false" />
+            <element signature="method#getProperty#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#getProperty#1;class#System#0" expanded="false" />
+            <element signature="method#getProperty#1;class#System#0" expanded="false" />
+            <element signature="docComment;method#setProperty#0;class#System#0" expanded="false" />
+            <element signature="method#setProperty#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#clearProperty#0;class#System#0" expanded="false" />
+            <element signature="method#clearProperty#0;class#System#0" expanded="false" />
+            <element signature="method#checkKey#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#getenv#0;class#System#0" expanded="false" />
+            <element signature="method#getenv#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#getenv#1;class#System#0" expanded="false" />
+            <element signature="method#getenv#1;class#System#0" expanded="false" />
+            <element signature="docComment;method#exit#0;class#System#0" expanded="false" />
+            <element signature="method#exit#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#gc#0;class#System#0" expanded="false" />
+            <element signature="method#gc#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#runFinalization#0;class#System#0" expanded="false" />
+            <element signature="method#runFinalization#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#runFinalizersOnExit#0;class#System#0" expanded="false" />
+            <element signature="method#runFinalizersOnExit#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#load#0;class#System#0" expanded="false" />
+            <element signature="method#load#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#loadLibrary#0;class#System#0" expanded="false" />
+            <element signature="method#loadLibrary#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#mapLibraryName#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#nullInputStream#0;class#System#0" expanded="false" />
+            <element signature="method#nullInputStream#0;class#System#0" expanded="false" />
+            <element signature="method#nullPrintStream#0;class#System#0" expanded="false" />
+            <element signature="docComment;method#initializeSystemClass#0;class#System#0" expanded="false" />
+            <element signature="method#initializeSystemClass#0;class#System#0" expanded="false" />
+            <element signature="e#43927#43991#0" expanded="false" />
+            <element signature="e#44140#44204#0" expanded="false" />
+            <element signature="e#44453#44519#0" expanded="false" />
+            <element signature="e#45093#45165#0" expanded="false" />
+            <element signature="e#45409#45478#0" expanded="false" />
+            <element signature="e#45657#45724#0" expanded="false" />
+            <element signature="e#45962#46025#0" expanded="false" />
+            <element signature="e#46189#46252#0" expanded="false" />
+            <element signature="method#setJavaLangAccess#0;class#System#0" expanded="false" />
+            <element signature="class#46575:47671" expanded="false" />
+            <element signature="method#getConstantPool#0;class#46575:47671" expanded="false" />
+            <element signature="method#setAnnotationType#0;class#46575:47671" expanded="false" />
+            <element signature="method#getAnnotationType#0;class#46575:47671" expanded="false" />
+            <element signature="method#getEnumConstantsShared#0;class#46575:47671" expanded="false" />
+            <element signature="method#blockedOn#0;class#46575:47671" expanded="false" />
+            <element signature="method#registerShutdownHook#0;class#46575:47671" expanded="false" />
+            <element signature="method#getStackTraceDepth#0;class#46575:47671" expanded="false" />
+            <element signature="method#getStackTraceElement#0;class#46575:47671" expanded="false" />
+            <element signature="method#getCallerClass#0;class#System#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_33/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="18" selection-start="942" selection-end="948" vertical-scroll-proportion="0.16558442" vertical-offset="0" max-vertical-offset="924">
+          <folding>
+            <element signature="docComment;class#InputStream#0" expanded="false" />
+            <element signature="docComment;method#read#0;class#InputStream#0" expanded="false" />
+            <element signature="docComment;method#read#1;class#InputStream#0" expanded="false" />
+            <element signature="method#read#1;class#InputStream#0" expanded="false" />
+            <element signature="docComment;method#read#2;class#InputStream#0" expanded="false" />
+            <element signature="method#read#2;class#InputStream#0" expanded="false" />
+            <element signature="docComment;method#skip#0;class#InputStream#0" expanded="false" />
+            <element signature="method#skip#0;class#InputStream#0" expanded="false" />
+            <element signature="docComment;method#available#0;class#InputStream#0" expanded="false" />
+            <element signature="method#available#0;class#InputStream#0" expanded="false" />
+            <element signature="docComment;method#close#0;class#InputStream#0" expanded="false" />
+            <element signature="docComment;method#mark#0;class#InputStream#0" expanded="false" />
+            <element signature="docComment;method#reset#0;class#InputStream#0" expanded="false" />
+            <element signature="method#reset#0;class#InputStream#0" expanded="false" />
+            <element signature="docComment;method#markSupported#0;class#InputStream#0" expanded="false" />
+            <element signature="method#markSupported#0;class#InputStream#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_33/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="40" selection-start="1591" selection-end="1602" vertical-scroll-proportion="0.2900433" vertical-offset="514" max-vertical-offset="3111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_33/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="38" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.16774891" vertical-offset="661" max-vertical-offset="8551">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Annotations/Meta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="58" selection-start="97" selection-end="203" vertical-scroll-proportion="0.12878788" vertical-offset="0" max-vertical-offset="924">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Annotations/MyMarker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="1" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemInOut/SystemIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="37" selection-start="261" selection-end="261" vertical-scroll-proportion="0.16558442" vertical-offset="0" max-vertical-offset="924">
           <folding />
         </state>
       </provider>
