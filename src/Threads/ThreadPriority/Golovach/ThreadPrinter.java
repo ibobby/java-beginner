@@ -13,8 +13,6 @@ public class ThreadPrinter implements Runnable {
         this.sleepTime = sleepTime;
     }
 
-
-    @Override
     public void run() {
         for (int i = 0; i < 10; i++) {
             try {
