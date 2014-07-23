@@ -10,15 +10,15 @@ public class SingleElementBufferOptimized {
     private Integer elem = null;
 
     public synchronized void put(Integer newElem) throws InterruptedException {
-        while (newElem != null) {
+        while (elem != null) {
             waitedProducers++;
             this.wait();
             waitedProducers--;
-            elem = newElem;
-            System.out.println("produced " + elem + " waitedProducers = " + waitedProducers);
-            if (waitedCustomers > 0) {
-                this.notify();
-            }
+        }
+        elem = newElem;
+        System.out.println("produced " + elem + " waitedProducers = " + waitedProducers);
+        if (waitedCustomers > 0) {
+            this.notify();
         }
     }
 

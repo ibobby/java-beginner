@@ -22,6 +22,17 @@ public class SingleElementBufferOptimizedMain {
             }
         });
 
+        Thread producer2 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                for (int i = 0; i < 10; i++) {
+                    try {
+                        bufferOptimized.put(i);
+                    } catch (InterruptedException ignore) {}
+                }
+            }
+        });
+
         Thread customer1 = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -34,6 +45,7 @@ public class SingleElementBufferOptimizedMain {
         });
 
         producer1.start();
+        producer2.start();
         customer1.start();
 
     }
