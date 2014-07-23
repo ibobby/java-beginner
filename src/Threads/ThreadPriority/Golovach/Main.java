@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            RabbitPrinter rabbitPrinter = new RabbitPrinter(1000);
+            RabbitPrinter rabbitPrinter = new RabbitPrinter(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
