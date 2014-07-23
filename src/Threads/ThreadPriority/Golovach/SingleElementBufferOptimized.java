@@ -15,6 +15,7 @@ public class SingleElementBufferOptimized {
             this.wait();
             waitedProducers--;
             elem = newElem;
+            System.out.println("produced " + elem + " waitedProducers = " + waitedProducers);
             if (waitedCustomers > 0) {
                 this.notify();
             }
@@ -30,6 +31,7 @@ public class SingleElementBufferOptimized {
 
         int result = this.elem;
         this.elem = null;
+        System.out.println("consumed " + result + " waitedCustomers = " + waitedCustomers);
         if (waitedProducers > 0) {
             this.notify();
         }
