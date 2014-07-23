@@ -14,6 +14,10 @@ public class SingleElementBufferOptimized {
             waitedProducers++;
             this.wait();
             waitedProducers--;
+            elem = newElem;
+            if (waitedCustomers > 0) {
+                this.notify();
+            }
         }
     }
 
