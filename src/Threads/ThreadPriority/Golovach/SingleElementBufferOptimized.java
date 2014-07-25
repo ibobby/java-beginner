@@ -12,11 +12,14 @@ public class SingleElementBufferOptimized {
     public synchronized void put(Integer newElem) throws InterruptedException {
         while (elem != null) {
             waitedProducers++;
+            System.out.println("Producer: waitedProducers = " + waitedProducers + " elem = " + elem + " waitedCustomers = " + waitedCustomers);
             this.wait();
             waitedProducers--;
+            System.out.println("Producer: waitedProducers = " + waitedProducers + " elem = " + elem + " waitedCustomers = " + waitedCustomers);
         }
         elem = newElem;
-        System.out.println("produced " + elem + " waitedProducers = " + waitedProducers);
+        //System.out.println("produced " + elem + " waitedProducers = " + waitedProducers);
+        System.out.println("Producer alive");
         if (waitedCustomers > 0) {
             this.notify();
         }
@@ -25,13 +28,16 @@ public class SingleElementBufferOptimized {
     public synchronized int get() throws InterruptedException {
         while (elem == null) {
             waitedCustomers++;
+            System.out.println("Customer: waitedProducers = " + waitedProducers + " elem = " + elem + " waitedCustomers = " + waitedCustomers);
             this.wait();
             waitedCustomers--;
+            System.out.println("Customer: waitedProducers = " + waitedProducers + " elem = " + elem + " waitedCustomers = " + waitedCustomers);
         }
 
         int result = this.elem;
         this.elem = null;
-        System.out.println("consumed " + result + " waitedCustomers = " + waitedCustomers);
+        //System.out.println("consumed " + result + " waitedCustomers = " + waitedCustomers);
+        System.out.println("Customer alive");
         if (waitedProducers > 0) {
             this.notify();
         }
