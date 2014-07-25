@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="620e5894-72eb-4c85-8a8d-c36e8ca8ede6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/ConsumerTimed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/ProducerTimed.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/SingleElementBufferOptimized.java" afterPath="$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/SingleElementBufferOptimized.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/SingleElementBufferTimed.java" afterPath="$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/SingleElementBufferTimed.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/MainTimed.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/ConsumerTimed.java" afterPath="$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/ConsumerTimed.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="java-beginner.iws" />
@@ -89,11 +87,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsumerTimed.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ConsumerTimed.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/ConsumerTimed.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTimed.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/MainTimed.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.10083037" vertical-offset="0" max-vertical-offset="843">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -155,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/SingleElementBufferOptimized.java" />
         <option value="$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/SingleElementBufferTimed.java" />
         <option value="$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/ProducerTimed.java" />
+        <option value="$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/ConsumerTimed.java" />
       </list>
     </option>
   </component>
@@ -678,7 +687,7 @@
       <workItem from="1406093662819" duration="3569000" />
       <workItem from="1406100480315" duration="258000" />
       <workItem from="1406115264011" duration="8662000" />
-      <workItem from="1406283578929" duration="4774000" />
+      <workItem from="1406283578929" duration="5471000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1386219705099</created>
@@ -716,11 +725,15 @@
       <created>1406283647631</created>
       <updated>1406283647633</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge branch 'master' of https://github.com/ibobby/java-beginner&#10;&#10;Conflicts:&#10;&#9;src/VariablesVisibility.java&#10;">
+      <created>1406288738375</created>
+      <updated>1406288738375</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27544000" />
+    <option name="totallyTimeSpent" value="28241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -959,8 +972,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/ConsumerTimed.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Threads/ThreadPriority/Golovach/MainTimed.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10083037" vertical-offset="0" max-vertical-offset="843">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
