@@ -21,7 +21,7 @@ public class SingleElementBufferOptimized {
         //System.out.println("produced " + elem + " waitedProducers = " + waitedProducers);
         System.out.println("Producer alive");
         if (waitedCustomers > 0) {
-            this.notify();
+            this.notifyAll();
         }
     }
 
@@ -39,7 +39,7 @@ public class SingleElementBufferOptimized {
         //System.out.println("consumed " + result + " waitedCustomers = " + waitedCustomers);
         System.out.println("Customer alive");
         if (waitedProducers > 0) {
-            this.notify();
+            this.notifyAll();
         }
         return result;
     }
