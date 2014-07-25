@@ -1,5 +1,7 @@
 package Threads.ThreadPriority.Golovach;
 
+import java.util.concurrent.TimeoutException;
+
 /**
  * Created by bobby on 25.07.2014.
  */
@@ -26,6 +28,9 @@ public class ProducerTimed implements Runnable {
                 Thread.sleep(period);
             } catch (InterruptedException e) {
                 System.out.println(Thread.currentThread().getName() + " stopped");
+                return;
+            } catch (TimeoutException e) {
+                System.out.println(Thread.currentThread().getName() + " time out");
                 return;
             }
         }
