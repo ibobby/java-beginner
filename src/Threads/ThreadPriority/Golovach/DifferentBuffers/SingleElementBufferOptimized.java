@@ -1,4 +1,4 @@
-package Threads.ThreadPriority.Golovach;
+package Threads.ThreadPriority.Golovach.DifferentBuffers;
 
 /**
  * Created by WhiteMountiens on 23.07.2014.

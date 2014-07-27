@@ -1,4 +1,4 @@
-package Threads.ThreadPriority.Golovach;
+package Threads.ThreadPriority.Golovach.DifferentBuffers;
 
 import java.util.concurrent.TimeoutException;
 

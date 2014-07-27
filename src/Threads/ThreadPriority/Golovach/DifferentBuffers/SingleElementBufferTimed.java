@@ -1,4 +1,4 @@
-package Threads.ThreadPriority.Golovach;
+package Threads.ThreadPriority.Golovach.DifferentBuffers;
 
 import java.util.concurrent.TimeoutException;
 
@@ -19,7 +19,7 @@ public class SingleElementBufferTimed {
             waitTime -= elapsedTime;
         }
 
-        if (waitTime > timeout) {
+        if (waitTime < 0) {
             throw new TimeoutException();
         }
 
@@ -39,7 +39,7 @@ public class SingleElementBufferTimed {
 
         System.out.println("waitTime = " + waitTime + "timeout = " + timeout);
 
-        if (waitTime > timeout) {
+        if (waitTime < 0) {
             throw new TimeoutException();
         }
 
