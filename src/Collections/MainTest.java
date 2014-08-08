@@ -9,12 +9,19 @@ public class MainTest {
 
     public static void main(String[] args) {
 
-        HashSet pointHashSet = new HashSet();
+        HashSet<ClassPoint> pointHashSet = new HashSet();
         pointHashSet.add(new ClassPoint(1, 1));
         pointHashSet.add(new ClassPoint(2, 0));
         pointHashSet.add(new ClassPoint(2, 0));
 
-        System.out.println(pointHashSet.toString());
+        System.out.println(pointHashSet);
+
+        HashSet<String> stringHashSet = new HashSet<>();
+        stringHashSet.add("Y");
+        stringHashSet.add("Y");
+        stringHashSet.add("Z");
+
+        System.out.println(stringHashSet);
 
     }
 

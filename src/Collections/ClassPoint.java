@@ -21,14 +21,6 @@ public class ClassPoint {
         return y;
     }
 
-    public void setX(int x) {
-        this.x = x;
-    }
-
-    public void setY(int y) {
-        this.y = y;
-    }
-
     @Override
     public int hashCode() {
         return x + y;
@@ -36,7 +28,21 @@ public class ClassPoint {
 
     @Override
     public boolean equals(Object obj) {
-        return super.equals(obj);
+        if (obj==null) {
+            return false;
+        }
+
+        if (obj.getClass()!= getClass()) {
+            return false;
+        }
+
+        ClassPoint classPointObj = (ClassPoint) obj;
+
+        if (x + y != classPointObj.x + classPointObj.y) {
+            return false;
+        }
+
+        return true;
     }
 
     @Override
