@@ -34,13 +34,13 @@ public class MainTest {
         stringHashMap.put(1, "one");
         stringHashMap.put(1, "two");
 
-        System.out.println(stringHashMap);
+        System.out.println(stringHashMap.hashCode());
 
         Map stringMap = new TreeMap<>();
         stringMap.put(1, "one");
         stringMap.put(1, "two");
 
-        System.out.println(stringMap);
+        System.out.println(stringMap.hashCode());
 
     }
 
