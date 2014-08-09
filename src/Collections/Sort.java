@@ -1,5 +1,7 @@
 package Collections;
 
+import java.util.Collection;
+import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -12,11 +14,12 @@ public class Sort {
         treeStringSet.add(new User("bob", 28));
         treeStringSet.add(new User("mike", 32));
         treeStringSet.add(new User("james", 42));
+        treeStringSet.add(new User("greg", 42));
         System.out.println(treeStringSet);
     }
 }
 
-class User {
+class User implements Comparable{
     String name;
     int age;
 
@@ -35,5 +38,30 @@ class User {
 
     public String toString() {
         return "name = " + getName() + " age = " + getAge();
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if (o == null) return 1;
+        User anotherUser = (User) o;
+        int dif = getAge() - anotherUser.getAge();
+        if (dif == 0) return 1;
+        int res = (dif) / Math.abs(dif);
+        return res;
+    }
+
+    @Override
+    public int hashCode() {
+        System.out.println("in hashCode");
+        return getAge();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        System.out.println("in equals");
+        if (obj == null) return false;
+        User anotherUser = (User) obj;
+        if (getAge() == anotherUser.getAge()) return true;
+        return false;
     }
 }
