@@ -69,8 +69,8 @@
       <file leaf-file-name="MainTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Collections/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40194714" vertical-offset="0" max-vertical-offset="719">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7093185" vertical-offset="17" max-vertical-offset="901">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -628,7 +628,7 @@
       <workItem from="1407508389954" duration="4999000" />
       <workItem from="1407525495813" duration="749000" />
       <workItem from="1408037330702" duration="804000" />
-      <workItem from="1408264326538" duration="1339000" />
+      <workItem from="1408264326538" duration="1800000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1386219705099</created>
@@ -682,11 +682,15 @@
       <created>1406482816330</created>
       <updated>1406482816330</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge branch 'master' of https://github.com/ibobby/java-beginner&#10;&#10;Conflicts:&#10;&#9;src/VariablesVisibility.java&#10;">
+      <created>1408265794871</created>
+      <updated>1408265794871</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44879000" />
+    <option name="totallyTimeSpent" value="45340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1138,8 +1142,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Collections/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40194714" vertical-offset="0" max-vertical-offset="719">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7093185" vertical-offset="17" max-vertical-offset="901">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
