@@ -1,6 +1,8 @@
 package Collections;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 
 /**
  * Created by WhiteMountiens on 13.08.2014.
@@ -22,6 +24,12 @@ public class MainTest {
         stringHashSet.add("Z");
 
         System.out.println(stringHashSet);
+
+        Map stringHashMap = new HashMap<>();
+        stringHashMap.put(1, "one");
+        stringHashMap.put(1, "two");
+
+        System.out.println(stringHashMap);
 
     }
 
