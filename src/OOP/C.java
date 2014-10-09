@@ -17,8 +17,8 @@ public class C implements Figure {
         figures.add(f);
     }
 
-    public C(C ... c) {
-        this.figures = Arrays.asList(c);
+    public C(Figure ... figures) {
+        this.figures = Arrays.asList(figures);
     }
 
     @Override
@@ -28,8 +28,23 @@ public class C implements Figure {
         }
     }
 }
+
 interface Figure {
     void draw(Graphics g);
+}
+
+class O implements Figure {
+
+    @Override
+    public void draw(Graphics g) {
+
+    }
+}
+
+class App {
+    public static void main(String[] args) {
+        new C(new C(new C(new O())), new C());
+    }
 }
 
 
